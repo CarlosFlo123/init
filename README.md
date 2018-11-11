@@ -1,19 +1,9 @@
 * Step to Install Debian VM using Virtual Box
 
 ```
-Name : agavrel
+Name : cflores-
 Type : Linux
 Version : Debian 64 bits
-Memory Size : 1024
-Create a Virtual Hard Disk now
-VDI
-Dynamically allocated
-File location and storage:
-Storage/goinfre/42/username OR MacOS/sgoinfre/goinfre/Perso/username if you wish to have it on the network
-```
-
-Once created, you will need to download Debian from the official site:
-https://cdimage.debian.org/debian-cd/current/i386/iso-cd/ -> download debian-9.3.0-i386-netinst.iso
 
 Then start the newly created VM ('agavrel' in this example) and proceed with the Debian installation:
 ```
