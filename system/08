@@ -1,2 +1,5 @@
 # Deduction : What file contains the RSA keys that are authorized to connect via SSH?
-~/.ssh/authorized_keys
+echo '~/.ssh/autorized_keys'
+
+#In the VM we cannot find any key bc we dont have any connection, if we take a look in
+#42 computer we will find the Kerberos KEY that connect us with 42 server.

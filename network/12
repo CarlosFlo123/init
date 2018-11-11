@@ -1,10 +1,10 @@
 # Check that the server with the 10.51.1.253 IP address is reachable from your computer
-ping -c 1 10.51.1.253 &>/dev/null
+ping -c 2 10.51.1.253 | grep '64 '
 # echo $?
-if [[ $? == 0 ]]; then
-	echo 'reachable'
-elif [[ $? == 2 ]]; then
-	echo 'not reachable'
-else
-	echo 'other error'
-fi
+#if [[ $? == 0 ]]; then
+#	echo 'reachable'
+#elif [[ $? == 2 ]]; then
+#	echo 'not reachable'
+#else
+#	echo 'other error'
+#fi

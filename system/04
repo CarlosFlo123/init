@@ -1,2 +1,5 @@
 # What command gives you the time since your system was last booted?
+#who -b
 uptime
+#uptime give u the lenght of time that the system has been up.
+

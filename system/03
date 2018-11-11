@@ -1,2 +1,4 @@
-# Deduction : What file has to be modified to make it permanent?
-/etc/hostname
+# What file has to be modified to make it permanent?
+echo /etc/hostname
+
+# Deduction: etc contains system files, therefore is permanent.

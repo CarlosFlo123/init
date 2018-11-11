@@ -1,4 +1,7 @@
 # Find the provider of slash16.org
-nslookup slash16.org | grep
-
-# we need to find the authoritative DNS servers. We can find it in the Name Server record
+#nslookup slash16.org
+#whois?
+echo "Amazon Web Services"
+#Deduction: take a look into the web thought dns
+#           then we ask who is the provider and 
+#           we will get it.
